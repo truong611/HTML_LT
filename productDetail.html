@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.js" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <style>
+    .slideDown {
+      margin-left: 20%;
+    }
+
+    .column01 {
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+    }
+
+    .box2 {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+    }
+
+    .box2 p {
+      font-size: medium;
+    }
+
+    .giabox {
+      background-color: #b8b5b5;
+      height: 5vh;
+      align-items: center;
+    }
+
+    .motabox {
+      display: flex;
+      justify-content: center;
+    }
+
+    .mota {
+      width: 70vw;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: 3px solid black;
+      background-color: whitesmoke;
+    }
+
+    .mota .boxSodo {
+      height: 35vh;
+      width: 30vw;
+      background-color: red;
+      align-self: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .motabox .mota .rowheader {
+      display: flex;
+      flex-direction: row;
+      margin-left: 2%;
+    }
+
+    .rowheader p {
+      border-right: 1px solid black;
+      margin-right: 3%;
+      width: 5vw;
+      height: 5vh;
+      display: flex;
+      align-items: center;
+    }
+    .rowheader span {
+      width: 5vw;
+      height: 5vh;
+      display: flex;
+      align-items: center;
+    }
+    .box_content .tagbox{
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      justify-self: start;
+    }
+    .tagbox span{
+      background-color: #505263;
+      margin-right: 2%;
+      height: 40%;
+      width: 20%;
+      color: whitesmoke;
+      margin-top: 2%;
+      margin-left: 3%;
+    }
+    .sharebox{
+      display: flex;
+      flex-direction: row;
+    }
+    .sharebox i{
+      color: black;
+    }
+    .contentMota {
+      margin-left: 2%;
+    }
+
+  </style>
+
+  <body>
+    <header>
+      <div class="topnav">
+        <a class="active" href="#bar_icon"
+          ><i class="fa fa-bars" aria-hidden="true"></i
+        ></a>
+        <div class="topnav-right">
+          <a href="#contact"><i class="fa fa-heart" aria-hidden="true"></i></a>
+          <a href="#search"><i class="fa fa-search" aria-hidden="true"></i></a>
+          <a href="#cart"
+            ><i class="fa fa-shopping-bag" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="./imga/img1.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="./imga/img2.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="./imga/img3.jpg" style="width: 100%" />
+        </div>
+
+        <div class="slideDown">
+          Home Page | 2022 Collection | Aqua Acacia Mini
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="third_box">
+        <div class="box_content">
+          <div>
+            <div class="box1"></div>
+          </div>
+          <div class="box2">
+            <p>AO NGUC KHONG GONG COTTON LUA FLEXI</p>
+            <div class="column01">
+              <p>SKT :</p>
+              <p>TC2021SETPUSHALISE-1</p>
+            </div>
+            <div>
+              <p>0 danh gia | 100 luot mua</p>
+            </div>
+
+            <div class="giabox">299,000 đ</div>
+            <p>mau sac:</p>
+            <p>Size:</p>
+            <p>So luong</p>
+
+            <div class="tagbox">
+              <p>Tag:</p>
+              <span>Tag1</span>
+              <span>Tag3</span>
+              <span>Tag3</span>
+            </div>
+
+            <div class="sharebox">
+              <p>Chia se</p>
+              <i class="fa-brands fa-instagram-square"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="motabox">
+        <div class="mota">
+          <div class="rowheader">
+            <p>Mô tả</p>
+            <p>Mô tả</p>
+            <span>Mô tả</span>
+          </div>
+          <div class="contentMota">
+            <p>* Lorem ipsum dolor sit amet.</p>
+            <p>
+              * Est impedit saepe ut similique explicabo et velit delectus ad
+              voluptate aspernatur est consectetur At impedit ullam. Sit
+              similique eveniet et aliquam galisum non commodi corporis.
+            </p>
+            <p>
+              * Ab dolor laudantium qui internos unde sed dolorem voluptate et
+              consequuntur ipsa ut quasi pariatur velit molestiae. In voluptatem
+              dolorum quo ducimus vero est obcaecati sapiente et sequi deleniti
+              et mollitia natus.
+            </p>
+            <p>
+              * Non dolore minima qui ratione alias est voluptatum ducimus ad
+              recusandae voluptatibus. Sed labore quibusdam non magni vero qui
+              corporis eos explicabo quasi sit quam molestiae. Et iste
+              voluptatem sed quos eligendi qui rerum architecto. Et fuga
+              expedita sit sequi enim rem consequuntur minima et accusamus sunt
+              cum atque ducimus
+            </p>
+          </div>
+          <div class="boxSodo">BẢNG SỐ ĐO</div>
+        </div>
+      </div>
+
+      <div class="third_box">
+        <div class="content_loveprd">
+          <p>sản phẩm cùng loại</p>
+        </div>
+        <div class="box_content">
+          <div>
+            <div class="box1"></div>
+            <div class="product_name">
+              <p>invisible inside-out</p>
+              <p>1.299.000 đ</p>
+            </div>
+          </div>
+          <div>
+            <div class="box1"></div>
+            <div class="product_name">
+              <p>invisible inside-out</p>
+              <p>1.299.000 đ</p>
+            </div>
+          </div>
+          <div>
+            <div class="box1"></div>
+            <div class="product_name">
+              <p>invisible inside-out</p>
+              <p>1.299.000 đ</p>
+            </div>
+          </div>
+          <div>
+            <div class="box1"></div>
+            <div class="product_name">
+              <p>invisible inside-out</p>
+              <p>1.299.000 đ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-gray">
+        <div class="footer-custom">
+          <div class="footer-lists">
+            <!--/.footer-list-wrap-->
+            <div class="footer-list-wrap">
+              <h6 class="ftr-hdr">Hỗ Trợ Khách Hàng</h6>
+              <ul class="ftr-links-sub">
+                <li>
+                  <a href="/help/talktous.html" rel="nofollow">Liên Hệ</a>
+                </li>
+                <li>
+                  <a href="/help/placingorders.html" rel="nofollow"
+                    >Bảng hướng dãn Size</a
+                  >
+                </li>
+                <li>
+                  <a href="/help/shipping.html" rel="nofollow"
+                    >Chăm sóc sản phẩm</a
+                  >
+                </li>
+                <li>
+                  <a href="/help/shippingreturns.html" rel="nofollow"
+                    >Quy định dổi trả</a
+                  >
+                </li>
+                <li>
+                  <a href="/help/international-shipping.html" rel="nofollow"
+                    >Vận chuyển</a
+                  >
+                </li>
+                <li>
+                  <a href="/~/egift-cards/" rel="nofollow"
+                    >Thanh toán và hoàn trả</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-list-wrap">
+              <h6 class="ftr-hdr">Về Chúng Tôi</h6>
+              <ul class="ftr-links-sub">
+                <li>
+                  <a
+                    href="/asp/aboutus/default-asp/_/posters.htm"
+                    rel="nofollow"
+                    >Địa điểm cửa hàng</a
+                  >
+                </li>
+                <li>
+                  <a href="http://corporate.art.com/careers" rel="nofollow"
+                    >Làm việc với chúng tôi</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--/.footer-list-wrap-->
+            <div class="footer-list-wrap">
+              <h6 class="ftr-hdr">Các Điều Khoản Và Chính Sách</h6>
+              <ul class="ftr-links-sub">
+                <art:content rule="!loggedin">
+                  <li class="ftr-Login">
+                    <span class="link login-trigger">Điều khoản dịch vụ</span>
+                  </li>
+                  <li>
+                    <span
+                      class="link"
+                      onclick="link('/asp/secure/your_account/track_orders-asp/_/posters.htm')"
+                      >Chính sách bảo mật</span
+                    >
+                  </li>
+                </art:content>
+              </ul>
+            </div>
+            <!--/.footer-list-wrap-->
+          </div>
+          <!--/.footer-lists-->
+          <div class="footer-email">
+            <h6 class="ftr-hdr">Thông tin công ty</h6>
+            <div id="ftr-email" class="ftr-email-form">
+              <form
+                id="ftrEmailForm"
+                method="post"
+                action="http://em.art.com/pub/rf"
+              >
+                <div class="about_us">
+                  <b>JP8 FASHSHION (VIETNAM)</b>
+                  <p>
+                    MBT 51356546185 <br />
+                    được cấp vào ngày 11/10/2017. Cấp bởi sở kế hoạch đầu tư
+                    Thành Phố HCM
+                  </p>
+                  <p>
+                    Tầng 6,7 tòa nhà Regus MC Linh Point, số 2 Ngõ Đức Kế,
+                    phường Bế Nghé, Quận 1, Thành Phố HCM <br />
+                    <br />
+                    Gọi cho chúng tôi: 0192423544 <br />
+                    <br />
+                    Thứ 2 - thứ 6: 8h30 - 17h
+                  </p>
+                </div>
+              </form>
+            </div>
+            <!--/.ftr-email-form-->
+            <div class="ftr-email-privacy-policy"></div>
+          </div>
+          <!--/.footer-email-->
+
+          <!--/.footer-social-->
+          <div class="footer-legal">
+            <p>ĐĂNG KÍ NHẬN BẢN TIN CỦA CHÚNG TÔI !!!</p>
+            <p>
+              Bằng việc bạn đăng nhập email của bạn, bạn đồng ý với
+              <a href="/help/privacy-policy.html" rel="nofollow"
+                >Điều khoản dịch vụ</a
+              >
+              và
+              <a href="/help/terms-of-use.html" rel="nofollow"
+                >Chính sách bảo mật</a
+              >
+              của chúng tôi.
+            </p>
+          </div>
+          <!--/.footer-legal-->
+          <!--/.footer-payment-->
+        </div>
+        <!--/.footer-custom-->
+      </div>
+      <!--/.footer-gray-->
+
+      <div class="infor_sales">
+        <p>NHẬN TIN KHUYẾN MÃI</p>
+        <input type="text" placeholder="Nhập địa chỉ email của bạn" />
+        <div class="dang_ki">ĐĂNG KÍ</div>
+
+        <p>TRA CỨU ĐƠN HÀNG</p>
+
+        <div class="dang_ki">THEO DÕI</div>
+      </div>
+    </footer>
+  </body>
+</html>
